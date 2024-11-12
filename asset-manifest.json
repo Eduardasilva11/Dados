@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/Dados/static/css/main.e28fa95b.css",
-    "main.js": "/Dados/static/js/main.51a26394.js",
+    "main.js": "/Dados/static/js/main.a4707d17.js",
     "static/js/453.68bb66f6.chunk.js": "/Dados/static/js/453.68bb66f6.chunk.js",
     "index.html": "/Dados/index.html",
     "main.e28fa95b.css.map": "/Dados/static/css/main.e28fa95b.css.map",
-    "main.51a26394.js.map": "/Dados/static/js/main.51a26394.js.map",
+    "main.a4707d17.js.map": "/Dados/static/js/main.a4707d17.js.map",
     "453.68bb66f6.chunk.js.map": "/Dados/static/js/453.68bb66f6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e28fa95b.css",
-    "static/js/main.51a26394.js"
+    "static/js/main.a4707d17.js"
   ]
 }
