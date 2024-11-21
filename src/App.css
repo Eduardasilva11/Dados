@@ -1,51 +1,50 @@
 body {
   font-family: Arial, sans-serif;
-  background-color: #1267c9;
+  background-color: #0db6c2;
   color: #333;
   margin: 0;
   padding: 0;
-  }
-  
-  .container {
+}
+
+.container {
   width: 80%;
   margin: 20px auto;
   padding: 20px;
-  background-color: white;
+  background-color: rgb(255, 255, 255);
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  }
-  
-  h1 {
+}
+
+h1 {
   text-align: center;
-  }
-  
-  .collab-form input {
+}
+
+.collab-form input {
   padding: 10px;
   margin: 10px;
   width: 100%;
   max-width: 300px;
   border: 1px solid #ccc;
   border-radius: 4px;
-  }
-  
-  .collab-form button {
+}
+
+.collab-form button {
   padding: 10px 20px;
-  background-color: #28a745;
+  background-color: #19e65d;
   color: white;
   border: none;
   border-radius: 4px;
   cursor: pointer;
-  }
-  
-  .collab-form button:hover {
-  background-color: #218838;
-  }
-  
-  
-  .collab-list table {
+}
+
+.collab-form button:hover {
+  background-color: #1783db;
+}
+
+.collab-list table {
   width: 100%;
   margin-top: 20px;
-  border: 2px black solid;
+  border: 3px black solid;
 }
 
 .collab-list th, .collab-list td {
@@ -53,23 +52,19 @@ body {
   text-align: left;
 }
 
-  .collab-list button {
+.collab-list button {
   padding: 5px 10px;
   background-color: #dc3545;
-  color: white;
+  color: rgb(248, 248, 248);
   border: none;
   border-radius: 4px;
   cursor: pointer;
-  }
-  
-  .collab-list button:hover {
+}
+
+.collab-list button:hover {
   background-color: #c82333;
-  }
-  
-  table {
-      border: 1px black solid;
-  }
-  tr {
-      border: 1px black solid;
-      
-  }
+}
+
+button {
+  margin: 0 5px;
+}

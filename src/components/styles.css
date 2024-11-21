@@ -1,75 +1,92 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #0db6c2;
+    background-image: url(fundo_de_imagem.avif);
     color: #333;
     margin: 0;
     padding: 0;
-    }
-    
-    .container {
+  }
+  
+  .container {
     width: 80%;
     margin: 20px auto;
     padding: 20px;
     background-color: rgb(255, 255, 255);
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    }
-    
-    h1 {
+  }
+  
+  h1 {
     text-align: center;
-    }
-    
-    .collab-form input {
+  }
+  
+  .collab-form input {
     padding: 10px;
     margin: 10px;
     width: 100%;
     max-width: 300px;
     border: 1px solid #ccc;
     border-radius: 4px;
-    }
-    
-    .collab-form button {
+  }
+  
+  .collab-form button {
     padding: 10px 20px;
     background-color: #19e65d;
     color: white;
     border: none;
     border-radius: 4px;
     cursor: pointer;
-    }
-    
-    .collab-form button:hover {
+  }
+  
+  .collab-form button:hover {
     background-color: #1783db;
-    }
-    
-    
-    .collab-list table {
+  }
+  
+  .collab-list table {
     width: 100%;
     margin-top: 20px;
     border: 3px black solid;
-}
-
-.collab-list th, .collab-list td {
+  }
+  
+  .collab-list th, .collab-list td {
     padding: 10px;
     text-align: left;
-}
-
-    .collab-list button {
+  }
+  
+  .collab-list button {
     padding: 5px 10px;
     background-color: #dc3545;
     color: rgb(248, 248, 248);
     border: none;
     border-radius: 4px;
     cursor: pointer;
-    }
-    
-    .collab-list button:hover {
+  }
+  
+  .collab-list button:hover {
     background-color: #c82333;
-    }
-    
-    table {
-        border: 1px black solid;
-    }
-    tr {
-        border: 1px black solid;
-        
-    }
+  }
+  
+  button {
+    margin: 0 5px;
+  }
+  
+  .contract-btn {
+    padding: 10px 20px;
+    background-color: #00bcd4; /* Cor ciano */
+    color: white;
+    border: 1px solid #00bcd4;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+    max-width: 300px;
+    margin: 10px 0;
+    transition: background-color 0.3s ease;
+  }
+  
+  .contract-btn:hover {
+    background-color: #0097a7; /* Cor ciano mais escura no hover */
+  }
+  
+  .contract-btn:focus {
+    outline: none; /* Remove o foco do botão ao clicar */
+  }
